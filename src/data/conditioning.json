@@ -1,0 +1,126 @@
+{
+  "plan": {
+    "days": [
+      {
+        "name": "Day 1: Full-Body Strength and Core",
+        "exercises": [
+          {
+            "name": "Bodyweight Squats",
+            "sets": "3",
+            "reps": "15-20",
+            "how_to": "Stand with feet shoulder-width apart, toes slightly turned out. Lower your hips back and down as if sitting in a chair, keeping your chest up and knees aligned with toes. Go as low as you comfortably can, then push through your heels to return to standing.",
+            "tip": "Keep your core engaged and avoid letting your knees cave inward."
+          },
+          {
+            "name": "Push-Ups",
+            "sets": "3",
+            "reps": "10-15",
+            "how_to": "Start in a high plank position with hands shoulder-width apart and body in a straight line. Bend your elbows to lower your body until your chest nearly touches the floor, then push back up to the starting position.",
+            "tip": "Do push-ups on your knees if needed, keeping hips aligned with shoulders."
+          },
+          {
+            "name": "Walking Lunges",
+            "sets": "3",
+            "reps": "10 per leg",
+            "how_to": "Stand tall and take a big step forward with your right leg. Lower your hips until both knees are at roughly 90 degrees, with the back knee hovering above the floor. Push through the front heel to bring the back leg forward into the next step.",
+            "tip": "Keep your torso upright and avoid allowing the front knee to go past your toes."
+          },
+          {
+            "name": "Plank",
+            "sets": "3",
+            "reps": "30-60 seconds",
+            "how_to": "Start on your elbows and toes, keeping your body in a straight line from head to heels. Engage your core, avoiding sagging in the hips or rounding in the shoulders.",
+            "tip": "Focus on squeezing your glutes and core for maximum stability."
+          },
+          {
+            "name": "Glute Bridges",
+            "sets": "3",
+            "reps": "15-20",
+            "how_to": "Lie on your back with knees bent and feet flat on the floor, hip-width apart. Press through your heels to lift your hips towards the ceiling, creating a straight line from knees to shoulders. Squeeze your glutes at the top, then lower back down.",
+            "tip": "Avoid arching your lower back—keep your core tight."
+          }
+        ]
+      },
+      {
+        "name": "Day 2: Conditioning Circuit",
+        "exercises": [
+          {
+            "name": "High Knees",
+            "sets": "4 rounds",
+            "reps": "40 seconds on, 20 seconds off",
+            "how_to": "Run in place, lifting your knees as high as possible towards your chest while pumping your arms. Aim for speed and height.",
+            "tip": "Land lightly on your toes and keep a steady rhythm."
+          },
+          {
+            "name": "Jump Squats",
+            "sets": "4 rounds",
+            "reps": "40 seconds on, 20 seconds off",
+            "how_to": "Perform a bodyweight squat, but as you reach the bottom, explode upwards into a jump. Land softly back into a squat position to absorb the impact, then repeat.",
+            "tip": "Use your arms to help propel you up and land softly to protect your joints."
+          },
+          {
+            "name": "Burpees",
+            "sets": "4 rounds",
+            "reps": "40 seconds on, 20 seconds off",
+            "how_to": "Stand tall, then squat down and place your hands on the floor. Jump or step your feet back to a plank position, complete a push-up, then jump your feet back to your hands and explode up with a jump.",
+            "tip": "Skip the push-up or jump back into plank if needed."
+          },
+          {
+            "name": "Push-Up to Shoulder Tap",
+            "sets": "4 rounds",
+            "reps": "40 seconds on, 20 seconds off",
+            "how_to": "Begin in a high plank position. Perform a push-up, then at the top, lift one hand to tap the opposite shoulder, then switch sides. Repeat.",
+            "tip": "Minimise hip movement by bracing your core when tapping each shoulder."
+          },
+          {
+            "name": "Russian Twists",
+            "sets": "4 rounds",
+            "reps": "40 seconds on, 20 seconds off",
+            "how_to": "Sit on the floor with knees bent and feet lifted (or resting on the floor for an easier variation). Lean back slightly and twist your torso to bring your hands to each side of your body.",
+            "tip": "Keep your core engaged and move with control to avoid straining your back."
+          }
+        ]
+      },
+      {
+        "name": "Day 3: Lower Body and Core Focus",
+        "exercises": [
+          {
+            "name": "Reverse Lunges",
+            "sets": "3",
+            "reps": "12 per leg",
+            "how_to": "Stand tall, then take a big step back with your right leg, lowering your hips until both knees form 90-degree angles. Push through the front heel to return to the start, then switch legs.",
+            "tip": "Keep your torso upright and your core engaged."
+          },
+          {
+            "name": "Single-Leg Romanian Deadlift (Bodyweight)",
+            "sets": "3",
+            "reps": "12 per leg",
+            "how_to": "Stand on your left leg with a slight bend in the knee. Hinge at the hips, extending the right leg straight behind you and reaching your torso forward. Lower until you feel a stretch in the hamstring, then return to standing.",
+            "tip": "Keep your back straight and avoid twisting your torso."
+          },
+          {
+            "name": "Calf Raises",
+            "sets": "3",
+            "reps": "20",
+            "how_to": "Stand with feet hip-width apart. Rise up onto the balls of your feet, then slowly lower your heels back down.",
+            "tip": "Hold onto a wall or surface for balance if needed, and pause at the top for an extra challenge."
+          },
+          {
+            "name": "Side Plank",
+            "sets": "3",
+            "reps": "20-30 seconds per side",
+            "how_to": "Lie on your side and lift your body into a straight line, resting on your elbow and the side of your foot. Hold, then switch sides.",
+            "tip": "Lower the bottom knee to the ground for added support."
+          },
+          {
+            "name": "Leg Raises",
+            "sets": "3",
+            "reps": "15-20",
+            "how_to": "Lie on your back with legs straight. Slowly lift them towards the ceiling until they’re perpendicular to the floor, then lower back down without letting them touch the ground.",
+            "tip": "Keep your lower back pressed into the ground to protect your spine."
+          }
+        ]
+      }
+    ]
+  }
+}
