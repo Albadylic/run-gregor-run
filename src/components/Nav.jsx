@@ -1,15 +1,17 @@
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 export default function Nav() {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/running">Running</a>
+          <Link to="/running">Running</Link>
         </li>
         <li>
-          <a href="stretching">Stretching</a>
+          <Link to="stretching">Stretching</Link>
         </li>
         <li>
-          <a href="/conditioning">Conditioning</a>
+          <Link to="/conditioning">Conditioning</Link>
         </li>
       </ul>
     </nav>
