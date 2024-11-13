@@ -12,13 +12,29 @@
   color: white;
 }
 
-.Month > nav > ul {
-  display: flex;
-  list-style-type: none;
+.App-header > h2 {
+  margin: 0.5em 0;
 }
 
-.Month > nav > ul > li {
-  padding: 1em;
+nav > ul {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  background-color: #282c34;
+  padding: 0;
+}
+
+nav > ul > li {
+  padding: 0.5em 1em;
+  color: white;
+  font-size: calc(10px + 1.5vmin);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav > ul > li > a {
+  color: inherit;
 }
 
 .runs_container {
