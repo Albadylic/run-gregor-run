@@ -4,15 +4,17 @@ import conditioningData from "../data/conditioning.json";
 function renderDay(dayName, id) {
   const day = conditioningData["days"][id];
   return (
-    <div>
-      <h2>{`${dayName}: ${day.name}`}</h2>
-      {day.exercises.map((exercise) => (
-        <div key={exercise.name}>
-          <h3>{exercise.name}</h3>
-          <p>Sets: {exercise.sets}</p>
-          <p>Reps: {exercise.reps["1"]}</p>
-        </div>
-      ))}
+    <div className="page_body">
+      <h2>{`${day.name}`}</h2>
+      <div className="conditioning_exercise_container">
+        {day.exercises.map((exercise) => (
+          <div key={exercise.name}>
+            <h3>{exercise.name}</h3>
+            <p>Sets: {exercise.sets}</p>
+            <p>Reps: {exercise.reps["1"]}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -41,6 +43,9 @@ export default function Conditioning() {
     return (
       <nav className="Sidebar">
         <ul>
+          <li key="Today" onClick={() => setDayState(today)}>
+            Today
+          </li>
           <li key="Monday" onClick={() => setDayState("Monday")}>
             Monday
           </li>
@@ -49,9 +54,6 @@ export default function Conditioning() {
           </li>
           <li key="Friday" onClick={() => setDayState("Friday")}>
             Friday
-          </li>
-          <li key="Today" onClick={() => setDayState(today)}>
-            Today
           </li>
         </ul>
       </nav>
@@ -69,7 +71,7 @@ export default function Conditioning() {
     return (
       <div className="page_container">
         <DayNav />
-        <div>
+        <div className="page_body">
           <h2>No training planned for {dayState}</h2>
         </div>
       </div>
