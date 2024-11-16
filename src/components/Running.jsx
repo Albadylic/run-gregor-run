@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const months = runningData.months;
 
-function Month() {
+export default function Running() {
   const [chosenMonth, setChosenMonth] = useState(months[0]);
   return (
     <div className="Month">
@@ -45,5 +45,3 @@ function Month() {
     </div>
   );
 }
-
-export default Month;

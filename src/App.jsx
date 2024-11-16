@@ -1,7 +1,8 @@
 import "./App.css";
 import Nav from "./components/Nav";
-import Month from "./components/Month";
+import Running from "./components/Running";
 import Conditioning from "./components/Conditionining";
+import Today from "./components/Today";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       <Router>
         <Nav />
         <Routes>
-          <Route path="/running" element={<Month />} />
+          <Route path="/" element={<Today />} />
+          <Route path="/running" element={<Running />} />
           <Route path="/conditioning" element={<Conditioning />} />
         </Routes>
       </Router>
