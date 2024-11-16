@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-header {
+.Header {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
@@ -10,17 +10,30 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  height: 20vh;
 }
 
-.App-header > h2 {
+.Header > h2 {
   margin: 0.5em 0;
+}
+
+.page_container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.Navigation > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.Sidebar > ul {
+  height: 80vh;
 }
 
 nav > ul {
   margin: 0;
-  display: flex;
   list-style-type: none;
-  justify-content: center;
   background-color: #282c34;
   padding: 0;
 }

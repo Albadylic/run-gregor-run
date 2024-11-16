@@ -6,8 +6,8 @@ const months = runningData.months;
 export default function Running() {
   const [chosenMonth, setChosenMonth] = useState(months[0]);
   return (
-    <div className="Month">
-      <nav>
+    <div div className="page_container">
+      <nav className="Sidebar">
         <ul>
           <li onClick={() => setChosenMonth(months[0])}>1</li>
           <li onClick={() => setChosenMonth(months[1])}>2</li>

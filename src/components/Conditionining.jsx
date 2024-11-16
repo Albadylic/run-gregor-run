@@ -39,7 +39,7 @@ export default function Conditioning() {
 
   const DayNav = () => {
     return (
-      <nav>
+      <nav className="Sidebar">
         <ul>
           <li key="Monday" onClick={() => setDayState("Monday")}>
             Monday
@@ -60,19 +60,19 @@ export default function Conditioning() {
 
   if (daysToPlan.hasOwnProperty(dayState)) {
     return (
-      <>
+      <div className="page_container">
         <DayNav />
         {renderDay(dayState, daysToPlan[dayState])}
-      </>
+      </div>
     );
   } else {
     return (
-      <>
+      <div className="page_container">
         <DayNav />
         <div>
           <h2>No training planned for {dayState}</h2>
         </div>
-      </>
+      </div>
     );
   }
 }
