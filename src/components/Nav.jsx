@@ -8,7 +8,7 @@ export default function Nav() {
           <Link to="/running">Running</Link>
         </li>
         <li>
-          <Link to="stretching">Stretching</Link>
+          <Link to="/stretching">Stretching</Link>
         </li>
         <li>
           <Link to="/conditioning">Conditioning</Link>
