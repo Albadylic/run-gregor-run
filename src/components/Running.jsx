@@ -24,9 +24,9 @@ export default function Running() {
           Month {chosenMonth["index"]}: {chosenMonth["title"]}
         </h3>
         <p>Total distance: {chosenMonth["total_distance"]}</p>
-        <p>Focus: {chosenMonth["focus"]}</p>
+        {/* <p>Focus: {chosenMonth["focus"]}</p>
         <p>Goal: {chosenMonth["goal"]}</p>
-        <p>Mantra: {chosenMonth["mantra"]}</p>
+        <p>Mantra: {chosenMonth["mantra"]}</p> */}
 
         <div className="runs_container">
           {chosenMonth["runs"].map((run) => (

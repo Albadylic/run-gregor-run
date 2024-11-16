@@ -1,229 +1,204 @@
 {
-    "effort_scale": {
-      "easy": {
-        "description": "Comfortable, relaxed, conversational pace.",
-        "pace": "6:00–6:15 min/km"
-      },
-      "tempo": {
-        "description": "Sustained, moderate-hard pace. Breathing is controlled, but harder.",
-        "pace": "5:15–5:25 min/km"
-      },
-      "interval": {
-        "description": "Short bursts of fast running, pushing hard but controlled.",
-        "pace": "4:50–5:05 min/km"
-      },
-      "race": {
-        "description": "The pace you aim to hold during the half marathon.",
-        "pace": "5:25–5:35 min/km"
-      }
+  "effort_scale": {
+    "easy": {
+      "description": "Comfortable, relaxed, conversational pace.",
+      "pace": "6:00–6:15 min/km"
     },
-    "general_tips": {
-      "effort": "Stay mindful of your effort levels during each run. Easy runs should feel light, while intervals and tempo runs should challenge you, but in a sustainable way.",
-      "recovery": "Allow your body to rest and recover after each intense session. This is key for your muscles to rebuild stronger.",
-      "mindfulness": "Use your mantras to centre yourself when the running gets tough. Let them guide your thoughts and keep you present during your runs.",
-      "visualisation": "Picture yourself on race day, running smoothly at your target pace, calm and collected."
+    "tempo": {
+      "description": "Sustained, moderate-hard pace. Breathing is controlled, but harder.",
+      "pace": "5:15–5:25 min/km"
     },
-    "months": [
-      {
-        "index": 1,
-        "title": "Consolidating the 10K",
-        "total_distance": "12-15 km/week",
-        "focus": "Strengthen your base, balancing effort with control.",
-        "runs": [
-          {
-            "type": "easy",
-            "distance": 5,
-            "effort": "6:00–6:15 min/km"
-          },
-          {
-            "type": "tempo",
-            "distance": 6,
-            "effort": "(1K easy @ 6:00 min/km, 4K @ 5:20 min/km, 1K easy @ 6:00 min/km)"
-          },
-          {
-            "type": "easy",
-            "distance": 8,
-            "effort": "6:00–6:10 min/km"
-          }
-        ],
-        "mantra": "Nature does not hurry, yet everything is accomplished.",
-        "goal": "Maintain 8K distance while exploring your tempo pace."
-      },
-      {
-        "index": 2,
-        "title": "Building Distance",
-        "total_distance": "15-18 km/week",
-        "focus": "Extend your distance with mindful effort, introducing speedwork.",
-        "runs": [
-          {
-            "type": "easy",
-            "distance": 6,
-            "effort": "6:00–6:15 min/km"
-          },
-          {
-            "type": "interval",
-            "distance": 5,
-            "effort": "(1K warm-up @ 6:00 min/km, 4 x 800m @ 4:50–5:00 min/km with 400m easy jog recoveries)"
-          },
-          {
-            "type": "easy",
-            "distance": 9,
-            "effort": "6:00–6:10 min/km"
-          }
-        ],
-        "mantra": "The mind is everything. What you think, you become.",
-        "goal": "Increase your long run to 9K and focus on disciplined intervals."
-      },
-      {
-        "index": 3,
-        "title": "Distance and Tempo Focus",
-        "total_distance": "17-20 km/week",
-        "focus": "Develop consistency in longer distances while refining your tempo efforts.",
-        "runs": [
-          {
-            "type": "easy",
-            "distance": 6,
-            "effort": "6:00–6:15 min/km"
-          },
-          {
-            "type": "tempo",
-            "distance": 7,
-            "effort": "(1K easy @ 6:00 min/km, 5K @ 5:20 min/km, 1K cool down @ 6:00 min/km)"
-          },
-          {
-            "type": "easy",
-            "distance": 10,
-            "effort": "6:00–6:10 min/km"
-          }
-        ],
-        "mantra": "You have the right to perform your duty, but not to the fruits of the action.",
-        "goal": "Build consistency at 10K while pushing your tempo pace."
-      },
-      {
-        "index": 4,
-        "title": "Strengthen Pacing & Intervals",
-        "total_distance": "20-23 km/week",
-        "focus": "Increase your interval sessions for speed and endurance.",
-        "runs": [
-          {
-            "type": "easy",
-            "distance": 6,
-            "effort": "6:00–6:15 min/km"
-          },
-          {
-            "type": "interval",
-            "distance": 7,
-            "effort": "(1K warm-up @ 6:00 min/km, 5 x 800m @ 4:50–5:00 min/km with 400m recovery jogs)"
-          },
-          {
-            "type": "easy",
-            "distance": 12,
-            "effort": "6:00–6:10 min/km"
-          }
-        ],
-        "mantra": "The impediment to action advances action. What stands in the way becomes the way.",
-        "goal": "Push through obstacles by extending your long run to 12K and improving interval work."
-      },
-      {
-        "index": 5,
-        "title": "Breakthrough Distance",
-        "total_distance": "22-25 km/week",
-        "focus": "Increase distance while holding a steady tempo, focusing on your internal journey.",
-        "runs": [
-          {
-            "type": "easy",
-            "distance": 6,
-            "effort": "6:00–6:15 min/km"
-          },
-          {
-            "type": "tempo",
-            "distance": 8,
-            "effort": "(1K easy @ 6:00 min/km, 6K @ 5:20 min/km, 1K easy @ 6:00 min/km)"
-          },
-          {
-            "type": "easy",
-            "distance": 14,
-            "effort": "6:00–6:10 min/km"
-          }
-        ],
-        "mantra": "The journey of a thousand miles begins with a single step.",
-        "goal": "Reach 14K comfortably, and deepen your focus during tempo sessions."
-      },
-      {
-        "index": 6,
-        "title": "Sharpening Speed",
-        "total_distance": "24-28 km/week",
-        "focus": "Increase long-run distance while refining your pace in shorter, faster efforts.",
-        "runs": [
-          {
-            "type": "easy",
-            "distance": 7,
-            "effort": "6:00–6:15 min/km"
-          },
-          {
-            "type": "interval",
-            "distance": 8,
-            "effort": "(1K warm-up @ 6:00 min/km, 6 x 800m @ 4:50–5:00 min/km with 400m recovery jogs)"
-          },
-          {
-            "type": "easy",
-            "distance": 16,
-            "effort": "6:00–6:10 min/km"
-          }
-        ],
-        "mantra": "Peace comes from within. Do not seek it without.",
-        "goal": "Extend your long run to 16K, and build strength in intervals."
-      },
-      {
-        "index": 7,
-        "title": "Prepping for Race Pace",
-        "total_distance": "25-30 km/week",
-        "focus": "Extend your long run towards race day distance while practising your race pace.",
-        "runs": [
-          {
-            "type": "easy",
-            "distance": 7,
-            "effort": "6:00–6:15 min/km"
-          },
-          {
-            "type": "tempo",
-            "distance": 9,
-            "effort": "(1K warm-up @ 6:00 min/km, 7K @ 5:20 min/km, 1K cool down @ 6:00 min/km)"
-          },
-          {
-            "type": "race_pace_long_run",
-            "distance": 18,
-            "effort": "(15K @ 5:30–5:35 min/km, 3K @ 6:00 min/km if needed)"
-          }
-        ],
-        "mantra": "We suffer more often in imagination than in reality.",
-        "goal": "Achieve race pace during your long run, trusting your body’s progress."
-      },
-      {
-        "index": 8,
-        "title": "Peak for Half Marathon",
-        "total_distance": "27-33 km/week",
-        "focus": "Final preparation for race day, with a focus on control and calmness.",
-        "runs": [
-          {
-            "type": "easy",
-            "distance": 7,
-            "effort": "6:00–6:15 min/km"
-          },
-          {
-            "type": "race_pace",
-            "distance": 10,
-            "effort": "(1K warm-up @ 6:00 min/km, 8K @ 5:30 min/km, 1K cool down @ 6:00 min/km)"
-          },
-          {
-            "type": "race_simulation_long_run",
-            "distance": 21,
-            "effort": "(18K @ 5:30–5:35 min/km, 3K @ 6:00 min/km if necessary)"
-          }
-        ],
-        "mantra": "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure.",
-        "goal": "Simulate race conditions, focus on mental strength and pacing."
-      }
-    ]
-  }
-  
+    "interval": {
+      "description": "Short bursts of fast running, pushing hard but controlled.",
+      "pace": "4:50–5:05 min/km"
+    },
+    "race": {
+      "description": "The pace you aim to hold during the half marathon.",
+      "pace": "5:25–5:35 min/km"
+    }
+  },
+  "general_tips": {
+    "effort": "Stay mindful of your effort levels during each run. Easy runs should feel light, while intervals and tempo runs should challenge you, but in a sustainable way.",
+    "recovery": "Allow your body to rest and recover after each intense session. This is key for your muscles to rebuild stronger.",
+    "mindfulness": "Use your mantras to centre yourself when the running gets tough. Let them guide your thoughts and keep you present during your runs.",
+    "visualisation": "Picture yourself on race day, running smoothly at your target pace, calm and collected."
+  },
+  "months": [
+    {
+      "index": 1,
+      "title": "Consolidating the 10K",
+      "total_distance": "12-15 km/week",
+      "runs": [
+        {
+          "type": "easy",
+          "distance": 5,
+          "effort": "6:00–6:15 min/km"
+        },
+        {
+          "type": "tempo",
+          "distance": 6,
+          "effort": "(1K easy @ 6:00 min/km, 4K @ 5:20 min/km, 1K easy @ 6:00 min/km)"
+        },
+        {
+          "type": "easy",
+          "distance": 8,
+          "effort": "6:00–6:10 min/km"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "Building Distance",
+      "total_distance": "15-18 km/week",
+      "runs": [
+        {
+          "type": "easy",
+          "distance": 6,
+          "effort": "6:00–6:15 min/km"
+        },
+        {
+          "type": "interval",
+          "distance": 5,
+          "effort": "(1K warm-up @ 6:00 min/km, 4 x 800m @ 4:50–5:00 min/km with 400m easy jog recoveries)"
+        },
+        {
+          "type": "easy",
+          "distance": 9,
+          "effort": "6:00–6:10 min/km"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "Distance and Tempo Focus",
+      "total_distance": "17-20 km/week",
+      "runs": [
+        {
+          "type": "easy",
+          "distance": 6,
+          "effort": "6:00–6:15 min/km"
+        },
+        {
+          "type": "tempo",
+          "distance": 7,
+          "effort": "(1K easy @ 6:00 min/km, 5K @ 5:20 min/km, 1K cool down @ 6:00 min/km)"
+        },
+        {
+          "type": "easy",
+          "distance": 10,
+          "effort": "6:00–6:10 min/km"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "Strengthen Pacing & Intervals",
+      "total_distance": "20-23 km/week",
+      "runs": [
+        {
+          "type": "easy",
+          "distance": 6,
+          "effort": "6:00–6:15 min/km"
+        },
+        {
+          "type": "interval",
+          "distance": 7,
+          "effort": "(1K warm-up @ 6:00 min/km, 5 x 800m @ 4:50–5:00 min/km with 400m recovery jogs)"
+        },
+        {
+          "type": "easy",
+          "distance": 12,
+          "effort": "6:00–6:10 min/km"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "Breakthrough Distance",
+      "total_distance": "22-25 km/week",
+      "runs": [
+        {
+          "type": "easy",
+          "distance": 6,
+          "effort": "6:00–6:15 min/km"
+        },
+        {
+          "type": "tempo",
+          "distance": 8,
+          "effort": "(1K easy @ 6:00 min/km, 6K @ 5:20 min/km, 1K easy @ 6:00 min/km)"
+        },
+        {
+          "type": "easy",
+          "distance": 14,
+          "effort": "6:00–6:10 min/km"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "Sharpening Speed",
+      "total_distance": "24-28 km/week",
+      "runs": [
+        {
+          "type": "easy",
+          "distance": 7,
+          "effort": "6:00–6:15 min/km"
+        },
+        {
+          "type": "interval",
+          "distance": 8,
+          "effort": "(1K warm-up @ 6:00 min/km, 6 x 800m @ 4:50–5:00 min/km with 400m recovery jogs)"
+        },
+        {
+          "type": "easy",
+          "distance": 16,
+          "effort": "6:00–6:10 min/km"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "Prepping for Race Pace",
+      "total_distance": "25-30 km/week",
+      "runs": [
+        {
+          "type": "easy",
+          "distance": 7,
+          "effort": "6:00–6:15 min/km"
+        },
+        {
+          "type": "tempo",
+          "distance": 9,
+          "effort": "(1K warm-up @ 6:00 min/km, 7K @ 5:20 min/km, 1K cool down @ 6:00 min/km)"
+        },
+        {
+          "type": "race_pace_long_run",
+          "distance": 18,
+          "effort": "(15K @ 5:30–5:35 min/km, 3K @ 6:00 min/km if needed)"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "Peak for Half Marathon",
+      "total_distance": "27-33 km/week",
+      "runs": [
+        {
+          "type": "easy",
+          "distance": 7,
+          "effort": "6:00–6:15 min/km"
+        },
+        {
+          "type": "race_pace",
+          "distance": 10,
+          "effort": "(1K warm-up @ 6:00 min/km, 8K @ 5:30 min/km, 1K cool down @ 6:00 min/km)"
+        },
+        {
+          "type": "race_simulation_long_run",
+          "distance": 21,
+          "effort": "(18K @ 5:30–5:35 min/km, 3K @ 6:00 min/km if necessary)"
+        }
+      ]
+    }
+  ]
+}

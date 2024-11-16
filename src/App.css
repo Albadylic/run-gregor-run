@@ -46,12 +46,18 @@ nav > ul > li > a {
   color: inherit;
 }
 
+.page_body {
+  margin: 1em;
+  text-align: center;
+}
+
 .runs_container,
 .conditioning_exercise_container {
   display: flex;
   flex-basis: 0;
   justify-content: space-around;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .runs_container > div,
@@ -59,4 +65,5 @@ nav > ul > li > a {
   border: solid 0.2em #282c34;
   text-wrap: wrap;
   width: 25%;
+  margin: 1em;
 }

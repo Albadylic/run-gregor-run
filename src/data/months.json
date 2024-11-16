@@ -1,0 +1,60 @@
+{
+  "months": [
+    {
+      "index": 1,
+      "title": "Consolidating the 10K",
+      "focus": "Strengthen your base, balancing effort with control.",
+      "mantra": "Nature does not hurry, yet everything is accomplished.",
+      "goal": "Maintain 8K distance while exploring your tempo pace."
+    },
+    {
+      "index": 2,
+      "title": "Building Distance",
+      "focus": "Extend your distance with mindful effort, introducing speedwork.",
+      "mantra": "The mind is everything. What you think, you become.",
+      "goal": "Increase your long run to 9K and focus on disciplined intervals."
+    },
+    {
+      "index": 3,
+      "title": "Distance and Tempo Focus",
+      "focus": "Develop consistency in longer distances while refining your tempo efforts.",
+      "mantra": "You have the right to perform your duty, but not to the fruits of the action.",
+      "goal": "Build consistency at 10K while pushing your tempo pace."
+    },
+    {
+      "index": 4,
+      "title": "Strengthen Pacing & Intervals",
+      "focus": "Increase your interval sessions for speed and endurance.",
+      "mantra": "The impediment to action advances action. What stands in the way becomes the way.",
+      "goal": "Push through obstacles by extending your long run to 12K and improving interval work."
+    },
+    {
+      "index": 5,
+      "title": "Breakthrough Distance",
+      "focus": "Increase distance while holding a steady tempo, focusing on your internal journey.",
+      "mantra": "The journey of a thousand miles begins with a single step.",
+      "goal": "Reach 14K comfortably, and deepen your focus during tempo sessions."
+    },
+    {
+      "index": 6,
+      "title": "Sharpening Speed",
+      "focus": "Increase long-run distance while refining your pace in shorter, faster efforts.",
+      "mantra": "Peace comes from within. Do not seek it without.",
+      "goal": "Extend your long run to 16K, and build strength in intervals."
+    },
+    {
+      "index": 7,
+      "title": "Prepping for Race Pace",
+      "focus": "Extend your long run towards race day distance while practising your race pace.",
+      "mantra": "We suffer more often in imagination than in reality.",
+      "goal": "Achieve race pace during your long run, trusting your body’s progress."
+    },
+    {
+      "index": 8,
+      "title": "Peak for Half Marathon",
+      "focus": "Final preparation for race day, with a focus on control and calmness.",
+      "mantra": "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure.",
+      "goal": "Simulate race conditions, focus on mental strength and pacing."
+    }
+  ]
+}

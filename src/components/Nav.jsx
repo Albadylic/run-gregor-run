@@ -5,6 +5,9 @@ export default function Nav() {
     <nav className="Navigation">
       <ul>
         <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
           <Link to="/running">Running</Link>
         </li>
         <li>
