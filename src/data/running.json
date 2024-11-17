@@ -26,6 +26,7 @@
   "months": [
     {
       "index": 1,
+      "name": "October",
       "title": "Consolidating the 10K",
       "total_distance": "12-15 km/week",
       "runs": [
@@ -48,6 +49,7 @@
     },
     {
       "index": 2,
+      "name": "November",
       "title": "Building Distance",
       "total_distance": "15-18 km/week",
       "runs": [
@@ -70,6 +72,7 @@
     },
     {
       "index": 3,
+      "name": "December",
       "title": "Distance and Tempo Focus",
       "total_distance": "17-20 km/week",
       "runs": [
@@ -92,6 +95,7 @@
     },
     {
       "index": 4,
+      "name": "January",
       "title": "Strengthen Pacing & Intervals",
       "total_distance": "20-23 km/week",
       "runs": [
@@ -114,6 +118,7 @@
     },
     {
       "index": 5,
+      "name": "February",
       "title": "Breakthrough Distance",
       "total_distance": "22-25 km/week",
       "runs": [
@@ -136,6 +141,7 @@
     },
     {
       "index": 6,
+      "name": "March",
       "title": "Sharpening Speed",
       "total_distance": "24-28 km/week",
       "runs": [
@@ -158,6 +164,7 @@
     },
     {
       "index": 7,
+      "name": "April",
       "title": "Prepping for Race Pace",
       "total_distance": "25-30 km/week",
       "runs": [
@@ -180,6 +187,7 @@
     },
     {
       "index": 8,
+      "name": "May",
       "title": "Peak for Half Marathon",
       "total_distance": "27-33 km/week",
       "runs": [

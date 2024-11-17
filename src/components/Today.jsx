@@ -1,6 +1,4 @@
 import { useState } from "react";
-import Conditioning from "./Conditionining";
-import Running from "./Running";
 import months from "../data/months.json";
 import { Link } from "react-router-dom";
 
@@ -47,7 +45,7 @@ export default function Today() {
     Friday: "conditioning",
   };
 
-  const [dayState, setDayState] = useState(today);
+  const [dayState] = useState(today);
   const [monthState, setMonthState] = useState(currentMonthData);
 
   const Month = () => {

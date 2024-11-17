@@ -4,7 +4,29 @@ import { useState } from "react";
 const months = runningData.months;
 
 export default function Running() {
-  const [chosenMonth, setChosenMonth] = useState(months[0]);
+  const monthIndex = new Date().getMonth();
+
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const thisMonth = monthNames[monthIndex];
+  const currentMonthData = runningData["months"].filter(
+    (obj) => obj.name === thisMonth
+  )[0];
+
+  const [chosenMonth, setChosenMonth] = useState(currentMonthData);
+
   return (
     <div div className="page_container">
       <nav className="Sidebar">
@@ -21,12 +43,9 @@ export default function Running() {
       </nav>
       <div className="page_body">
         <h3>
-          Month {chosenMonth["index"]}: {chosenMonth["title"]}
+          {chosenMonth["name"]}: {chosenMonth["title"]}
         </h3>
         <p>Total distance: {chosenMonth["total_distance"]}</p>
-        {/* <p>Focus: {chosenMonth["focus"]}</p>
-        <p>Goal: {chosenMonth["goal"]}</p>
-        <p>Mantra: {chosenMonth["mantra"]}</p> */}
 
         <div className="runs_container">
           {chosenMonth["runs"].map((run) => (
