@@ -31,14 +31,14 @@ export default function Running() {
     <div div className="page_container">
       <nav className="Sidebar">
         <ul>
-          <li onClick={() => setChosenMonth(months[0])}>1 - October</li>
-          <li onClick={() => setChosenMonth(months[1])}>2 - November</li>
-          <li onClick={() => setChosenMonth(months[2])}>3 - December</li>
-          <li onClick={() => setChosenMonth(months[3])}>4 - January</li>
-          <li onClick={() => setChosenMonth(months[4])}>5 - February</li>
-          <li onClick={() => setChosenMonth(months[5])}>6 - March</li>
-          <li onClick={() => setChosenMonth(months[6])}>7 - April</li>
-          <li onClick={() => setChosenMonth(months[7])}>8 - May</li>
+          <li onClick={() => setChosenMonth(months[0])}>October</li>
+          <li onClick={() => setChosenMonth(months[1])}>November</li>
+          <li onClick={() => setChosenMonth(months[2])}>December</li>
+          <li onClick={() => setChosenMonth(months[3])}>January</li>
+          <li onClick={() => setChosenMonth(months[4])}>February</li>
+          <li onClick={() => setChosenMonth(months[5])}>March</li>
+          <li onClick={() => setChosenMonth(months[6])}>April</li>
+          <li onClick={() => setChosenMonth(months[7])}>May</li>
         </ul>
       </nav>
       <div className="page_body">

@@ -1,15 +1,45 @@
+:root {
+  --grey-100: #dad7cd;
+  --beige-light: #fefae0;
+  --beige-dark: #faedcd;
+  --orange-light: #dda15e;
+  --organge-med: #d4a373;
+  --orange-dark: #bc6c25;
+  --green-100: #e9edc9;
+  --green-200: #ccd5ae;
+  --green-400: #a3b18a;
+  --green-500: #606c38;
+  --green-600: #588157;
+  --green-800: #3a5a40;
+  --green-900: #344e41;
+  --green-950: #283618;
+}
+
 .Header {
-  background-color: #282c34;
+  background-color: var(--green-900);
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  height: 20vh;
+}
+
+.Header_logo > h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.Header_title {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-  height: 20vh;
+  color: var(--beige-light);
 }
 
-.Header > h2 {
+.Header_title > h2 {
   margin: 0.5em 0;
 }
 
@@ -18,9 +48,17 @@
   grid-template-columns: 1fr 5fr;
 }
 
+.Navigation {
+  width: 100%;
+}
+
 .Navigation > ul {
   display: flex;
   justify-content: center;
+}
+
+.Sidebar {
+  background-color: var(--orange-dark);
 }
 
 .Sidebar > ul {
@@ -30,13 +68,12 @@
 nav > ul {
   margin: 0;
   list-style-type: none;
-  background-color: #282c34;
   padding: 0;
 }
 
 nav > ul > li {
   padding: 0.5em 1em;
-  color: white;
+  color: var(--beige-light);
   font-size: calc(10px + 1.5vmin);
   text-decoration: underline;
   cursor: pointer;
@@ -47,8 +84,9 @@ nav > ul > li > a {
 }
 
 .page_body {
-  margin: 1em;
+  padding: 1em;
   text-align: center;
+  background-color: var(--green-100);
 }
 
 .runs_container,
@@ -62,8 +100,10 @@ nav > ul > li > a {
 
 .runs_container > div,
 .conditioning_exercise_container > div {
-  border: solid 0.2em #282c34;
+  border: solid 0.2em var(--orange-dark);
+  border-radius: 5%;
   text-wrap: wrap;
   width: 25%;
   margin: 1em;
+  background-color: var(--beige-dark);
 }
