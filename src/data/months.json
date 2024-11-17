@@ -2,6 +2,7 @@
   "months": [
     {
       "index": 1,
+      "name": "October",
       "title": "Consolidating the 10K",
       "focus": "Strengthen your base, balancing effort with control.",
       "mantra": "Nature does not hurry, yet everything is accomplished.",
@@ -9,6 +10,7 @@
     },
     {
       "index": 2,
+      "name": "November",
       "title": "Building Distance",
       "focus": "Extend your distance with mindful effort, introducing speedwork.",
       "mantra": "The mind is everything. What you think, you become.",
@@ -16,6 +18,7 @@
     },
     {
       "index": 3,
+      "name": "December",
       "title": "Distance and Tempo Focus",
       "focus": "Develop consistency in longer distances while refining your tempo efforts.",
       "mantra": "You have the right to perform your duty, but not to the fruits of the action.",
@@ -23,6 +26,7 @@
     },
     {
       "index": 4,
+      "name": "January",
       "title": "Strengthen Pacing & Intervals",
       "focus": "Increase your interval sessions for speed and endurance.",
       "mantra": "The impediment to action advances action. What stands in the way becomes the way.",
@@ -30,6 +34,7 @@
     },
     {
       "index": 5,
+      "name": "February",
       "title": "Breakthrough Distance",
       "focus": "Increase distance while holding a steady tempo, focusing on your internal journey.",
       "mantra": "The journey of a thousand miles begins with a single step.",
@@ -37,6 +42,7 @@
     },
     {
       "index": 6,
+      "name": "March",
       "title": "Sharpening Speed",
       "focus": "Increase long-run distance while refining your pace in shorter, faster efforts.",
       "mantra": "Peace comes from within. Do not seek it without.",
@@ -44,6 +50,7 @@
     },
     {
       "index": 7,
+      "name": "April",
       "title": "Prepping for Race Pace",
       "focus": "Extend your long run towards race day distance while practising your race pace.",
       "mantra": "We suffer more often in imagination than in reality.",
@@ -51,6 +58,7 @@
     },
     {
       "index": 8,
+      "name": "May",
       "title": "Peak for Half Marathon",
       "focus": "Final preparation for race day, with a focus on control and calmness.",
       "mantra": "Be steadfast in yoga, O Arjuna. Perform your duty and abandon all attachment to success or failure.",
